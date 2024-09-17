@@ -8,16 +8,16 @@ A **Video Streaming Application** built with a **Spring Boot backend** and **Rea
 
 # Table of Contents
 
-1. Introduction
-2. Features
-3. Technologies Used
-4. Project Structure
-5. How It Works
-6. FFmpeg Integration
-7. Setup and Usage
-8. Classes Overview
-9. Future Enhancements
-10. Contributing
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Project Structure](#project-structure)
+5. [How It Works](#how-it-works)
+6. [FFmpeg Integration](#ffmpeg-integration)
+7. [Setup and Usage](#setup-and-usage)
+8. [Classes Overview](#classes-overview)
+9. [Future Enhancements](#future-enhancements)
+10. [Contributing](#contributing)
 
 ---
 
