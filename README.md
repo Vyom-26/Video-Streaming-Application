@@ -26,9 +26,9 @@ A **Video Streaming Application** built with a **Spring Boot backend** and **Rea
 
 This Video Streaming Application is designed to handle video uploads, manage metadata, and stream videos to users in real-time. The backend is powered by Spring Boot for robust server-side processing and storage, while the frontend uses React (Vite) for high-speed and efficient rendering. The application integrates FFmpeg for advanced video processing, ensuring support for multiple formats and video compression.
 ![Screenshot 2024-09-17 145828](https://github.com/user-attachments/assets/0b32a99e-4163-47b3-93eb-585b853f7e58)
-### Uploading a new video file 
+*Uploading a new video file.* 
 ![Screenshot 2024-09-17 145715](https://github.com/user-attachments/assets/35969612-f4b7-43ff-9c01-4e2366e21a45)
-### Video uploaded sucessfully 
+*Video uploaded sucessfully* 
 
 
 ---
@@ -136,6 +136,14 @@ Video-Streaming-Application/
 - **-hls_segment_filename "%s/segment_%%3d.ts":** This specifies the naming pattern for the output segments. %s is the output directory path, and %%3d ensures the segment files are numbered sequentially with three digits (e.g., segment_001.ts, segment_002.ts).
 
  - **"%s/master.m3u8":** This specifies the name of the HLS playlist file (master.m3u8), which references all the video segments. The playlist file is what the video player uses to stream the video.
+![Screenshot 2024-09-17 145849](https://github.com/user-attachments/assets/5d7b63eb-e597-4fb1-83cb-9a9de86d4316)
+![Screenshot 2024-09-17 145908](https://github.com/user-attachments/assets/5a9eb2fb-d8dc-4f36-9f29-6c6fac7a7f8e)
+*This is the implementation of ffmpeg which gets hit while uploading videos*
+
+![Screenshot 2024-09-17 150104](https://github.com/user-attachments/assets/64384c01-2921-4145-bc45-8d37d9d0af9a)
+*This is the master.m3u8 file and one of the various segment.ts files created by utilizing ffmpeg*
+
+
 
 
 ---
