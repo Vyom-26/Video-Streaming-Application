@@ -3,6 +3,7 @@
 # Video Streaming Application
 
 A **Video Streaming Application** built with a **Spring Boot backend** and **React (Vite) frontend**. This application allows users to upload, store, and stream videos efficiently. It features real-time video delivery, course management, and an optimized front-end for a smooth streaming experience. It also integrates **FFmpeg** for video processing, ensuring support for various formats and resolutions.
+![Screenshot 2024-09-17 145623](https://github.com/user-attachments/assets/6541c5e6-fa33-4237-8be4-51624f4b7480)
 
 ---
 
