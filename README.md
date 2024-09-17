@@ -25,6 +25,11 @@ A **Video Streaming Application** built with a **Spring Boot backend** and **Rea
 # Introduction
 
 This Video Streaming Application is designed to handle video uploads, manage metadata, and stream videos to users in real-time. The backend is powered by Spring Boot for robust server-side processing and storage, while the frontend uses React (Vite) for high-speed and efficient rendering. The application integrates FFmpeg for advanced video processing, ensuring support for multiple formats and video compression.
+![Screenshot 2024-09-17 145828](https://github.com/user-attachments/assets/0b32a99e-4163-47b3-93eb-585b853f7e58)
+### Uploading a new video file 
+![Screenshot 2024-09-17 145715](https://github.com/user-attachments/assets/35969612-f4b7-43ff-9c01-4e2366e21a45)
+### Video uploaded sucessfully 
+
 
 ---
 
